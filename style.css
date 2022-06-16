@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+#calc_div{
+    display: grid;
+    grid-template-columns:100px 100px;
+    grid-template-areas: 
+        "header header header header"
+        "oper1 oper1 oper1 oper1"
+        "main main main sidebar"
+        "main main main sidebar"
+        "main main main sidebar"
+        "main main main sidebar";
+        width: 50vw;
+        height: 80vh;
+}
+.calcsave{
+    grid-area:header;
+}
+.oper{
+    grid-area:oper1;
+}
+
+.calcequal{
+    grid-area:sidebar;
+}
